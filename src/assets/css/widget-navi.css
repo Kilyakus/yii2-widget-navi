@@ -11,8 +11,8 @@
 				.navi .navi-item .navi-link .navi-arrow:before {line-height:0;font-family:Ki;font-style:normal;font-weight:normal;font-variant:normal;line-height:1;text-decoration:inherit;text-rendering:optimizeLegibility;text-transform:none;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;content:"";font-size:0.6rem;}
 				.navi .navi-item .navi-link .navi-arrow.navi-arrow-down {-webkit-transform:rotateZ(-90deg)/*rtl:ignore*/;transform:rotateZ(-90deg)/*rtl:ignore*/;}
 					[direction="rtl"] .navi .navi-item .navi-link .navi-arrow.navi-arrow-down {-webkit-transform:rotateZ(90deg)/*rtl:ignore*/;transform:rotateZ(90deg)/*rtl:ignore*/;}
-		.navi .navi-item:last-child {border-bottom:0 !important;}
-			.navi .navi-item:last-child .navi-link {border-bottom:0 !important;}
+		.navi .navi-item:last-child {border-bottom:0!important;}
+			.navi .navi-item:last-child .navi-link {border-bottom:0!important;}
 	.navi .navi-separator {margin:0;padding:0;height:0;display:block;border-bottom:1px solid #EBEDF3;}
 		.navi .navi-separator.navi-separator-dashed {border-bottom:1px dashed #EBEDF3;}
 	.navi .navi-header,
