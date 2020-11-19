@@ -2,9 +2,9 @@
 namespace kilyakus\widget\navi;
 
 use Yii;
-use kilyakus\widgets\InputWidget;
+use kilyakus\widgets\Widget;
 
-class Navi extends InputWidget
+class Navi extends Widget
 {
     public $pluginName = 'navi';
 
@@ -19,7 +19,6 @@ class Navi extends InputWidget
         $view = $this->getView();
         NaviAsset::register($view);
 
-        $view->registerJs($js);
         $this->registerPlugin($this->pluginName, $this->id);
     }
 
