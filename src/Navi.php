@@ -6,8 +6,6 @@ use kilyakus\widgets\Widget;
 
 class Navi extends Widget
 {
-    public $pluginName = 'navi';
-
     public function run()
     {
         $this->initSettings();
@@ -18,8 +16,6 @@ class Navi extends Widget
     {
         $view = $this->getView();
         NaviAsset::register($view);
-
-        $this->registerPlugin($this->pluginName, $this->id);
     }
 
     protected function initSettings()
